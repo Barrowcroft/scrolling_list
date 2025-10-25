@@ -1,0 +1,9 @@
+[project]
+name = "scrolling-list"
+version = "0.1.0"
+description = "CTkScrollingList - Implementation of a list control using CustomTkinter's scrolling frame"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "customtkinter>=5.2.2",
+]
