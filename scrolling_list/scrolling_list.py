@@ -65,7 +65,7 @@ class CTkScrollingList(
 
     def __init__(
         self,
-        master: ct.CTk,
+        master: ct.CTk | ct.CTkFrame,
         title: str,
         list_item_request_callback: Callable[
             [ct.CTkScrollableFrame, int, dict[str, str], Callable[[int], None]],
